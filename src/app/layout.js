@@ -1,5 +1,20 @@
-import './globals.css'
+import '../../public/assets/css/vendor/bootstrap.min.css'
+import '../../public/assets/css/vendor/icomoon.css'
+import '../../public/assets/css/vendor/remixicon.css'
+import '../../public/assets/css/vendor/magnifypopup.min.css'
+import '../../public/assets/css/vendor/odometer.min.css'
+//import '../../public/assets/css/vendor/lightbox.min.css'
+import '../../public/assets/css/vendor/animation.min.css'
+//import '../../public/assets/css/vendor/jqueru-ui-min.css'
+import '../../public/assets/css/vendor/swiper-bundle.min.css'
+import '../../public/assets/css/vendor/tipped.min.css'
+import '../../public/assets/css/app.css'
+//import './globals.css'
+
 import { Inter } from 'next/font/google'
+import Header from './components/header'
+import HeadTop from './components/HeadTop'
+import Footer from './components/footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -11,7 +26,58 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <HeadTop />
+
+      <body className={inter.className}>
+        {/*<div id="edublink-preloader">
+          <div className="loading-spinner">
+            <div className="preloader-spin-1"></div>
+            <div className="preloader-spin-2"></div>
+          </div>
+          <div className="preloader-close-btn-wraper">
+            <span className="btn btn-primary preloader-close-btn">
+              Cancel Preloader</span>
+          </div>
+  </div>*/}
+
+        <div id="main-wrapper" className="main-wrapper">
+          <Header />
+          {children}
+          <Footer />
+        </div>
+
+        <div className="rn-progress-parent">
+          <svg className="rn-back-circle svg-inner" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+          </svg>
+        </div>
+
+        <script src="/assets/js/vendor/modernizr.min.js"></script>
+
+        <script src="/assets/js/vendor/jquery.min.js"></script>
+        <script src="/assets/js/vendor/bootstrap.min.js"></script>
+        <script src="/assets/js/vendor/sal.min.js"></script>
+        <script src="/assets/js/vendor/backtotop.min.js"></script>
+        <script src="/assets/js/vendor/magnifypopup.min.js"></script>
+        <script src="/assets/js/vendor/jquery.countdown.min.js"></script>
+        <script src="/assets/js/vendor/odometer.min.js"></script>
+        <script src="/assets/js/vendor/isotop.min.js"></script>
+        <script src="/assets/js/vendor/imageloaded.min.js"></script>
+        <script src="/assets/js/vendor/lightbox.min.js"></script>
+        <script src="/assets/js/vendor/paralax.min.js"></script>
+        <script src="/assets/js/vendor/paralax-scroll.min.js"></script>
+        <script src="/assets/js/vendor/jquery-ui.min.js"></script>
+        <script src="/assets/js/vendor/swiper-bundle.min.js"></script>
+        <script src="/assets/js/vendor/svg-inject.min.js"></script>
+        <script src="/assets/js/vendor/vivus.min.js"></script>
+        <script src="/assets/js/vendor/tipped.min.js"></script>
+        <script src="/assets/js/vendor/smooth-scroll.min.js"></script>
+        <script src="/assets/js/vendor/isInViewport.jquery.min.js"></script>
+
+
+        <script src="/assets/js/app.js"></script>
+      </body>
+
     </html>
   )
 }
