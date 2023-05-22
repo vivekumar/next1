@@ -4,19 +4,19 @@ export default function Blog() {
   return (
     <div className="edu-blog-area blog-area-1 edu-section-gap">
       <div className="container">
-        <div className="section-title section-center" data-sal-delay="100" data-sal="slide-up" data-sal-duration="800">
+        <div className="section-title section-center" data-sal-delay="100" data-sal-duration="800">
           <span className="pre-title">Latest Articles</span>
           <h2 className="title">Get News with EduBlink</h2>
           <span className="shape-line"><i className="icon-19"></i></span>
         </div>
         <div className="row g-5">
 
-          <div className="col-lg-4 col-md-6 col-12" data-sal-delay="100" data-sal="slide-up" data-sal-duration="800">
+          <div className="col-lg-4 col-md-6 col-12" data-sal-delay="100" data-sal-duration="800">
             <div className="edu-blog blog-style-1">
               <div className="inner">
                 <div className="thumbnail">
                   <a href="blog-details.html">
-                    <Image src="/assets/images/blog/blog-01.jpg" alt="Blog Images">
+                    <Image src="/assets/images/blog/blog-01.jpg" alt="Blog Images" width={370} height={370} />
                   </a>
                 </div>
                 <div className="content position-top">
@@ -37,12 +37,12 @@ export default function Blog() {
             </div>
           </div>
 
-          <div className="col-lg-4 col-md-6 col-12" data-sal-delay="200" data-sal="slide-up" data-sal-duration="800">
+          <div className="col-lg-4 col-md-6 col-12" data-sal-delay="200" data-sal-duration="800">
             <div className="edu-blog blog-style-1">
               <div className="inner">
                 <div className="thumbnail">
                   <a href="blog-details.html">
-                    <Image src="/assets/images/blog/blog-02.jpg" alt="Blog Images">
+                    <Image src="/assets/images/blog/blog-02.jpg" alt="Blog Images" width={370} height={370} />
                   </a>
                 </div>
                 <div className="content position-top">
@@ -63,12 +63,12 @@ export default function Blog() {
             </div>
           </div>
 
-          <div className="col-lg-4 col-md-6 col-12" data-sal-delay="300" data-sal="slide-up" data-sal-duration="800">
+          <div className="col-lg-4 col-md-6 col-12" data-sal-delay="300" data-sal-duration="800">
             <div className="edu-blog blog-style-1">
               <div className="inner">
                 <div className="thumbnail">
                   <a href="blog-details.html">
-                    <Image src="/assets/images/blog/blog-03.jpg" alt="Blog Images">
+                    <Image src="/assets/images/blog/blog-03.jpg" alt="Blog Images" width={370} height={370} />
                   </a>
                 </div>
                 <div className="content position-top">
@@ -93,13 +93,13 @@ export default function Blog() {
       </div>
       <ul className="shape-group">
         <li className="shape-1 scene">
-          <Image data-depth="-1.4" src="/assets/images/about/shape-02.png" alt="Shape">
+          <Image data-depth="-1.4" src="/assets/images/about/shape-02.png" alt="Shape" width={280} height={280} />
         </li>
         <li className="shape-2 scene">
           <span data-depth="2.5"></span>
         </li>
         <li className="shape-3 scene">
-          <Image data-depth="-2.3" src="/assets/images/counterup/shape-05.png" alt="Shape">
+          <Image data-depth="-2.3" src="/assets/images/counterup/shape-05.png" alt="Shape" width={174} height={147} />
         </li>
       </ul>
     </div>

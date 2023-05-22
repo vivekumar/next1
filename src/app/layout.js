@@ -26,7 +26,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <HeadTop />
+      {/*<HeadTop />*/}
 
       <body className={inter.className}>
         {/*<div id="edublink-preloader">
@@ -52,12 +52,12 @@ export default function RootLayout({ children }) {
           </svg>
         </div>
 
-        <script src="/assets/js/vendor/modernizr.min.js"></script>
+        {/*<script src="/assets/js/vendor/modernizr.min.js"></script>*/}
 
         <script src="/assets/js/vendor/jquery.min.js"></script>
         <script src="/assets/js/vendor/bootstrap.min.js"></script>
         <script src="/assets/js/vendor/sal.min.js"></script>
-        <script src="/assets/js/vendor/backtotop.min.js"></script>
+        {/*<script src="/assets/js/vendor/backtotop.min.js"></script>*/}
         <script src="/assets/js/vendor/magnifypopup.min.js"></script>
         <script src="/assets/js/vendor/jquery.countdown.min.js"></script>
         <script src="/assets/js/vendor/odometer.min.js"></script>

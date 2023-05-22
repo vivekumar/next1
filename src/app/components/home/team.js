@@ -4,20 +4,20 @@ export default function Team() {
   return (
     <div className="edu-team-area team-area-1 gap-tb-text">
       <div className="container">
-        <div className="section-title section-center" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+        <div className="section-title section-center" data-sal-delay="150" data-sal-duration="800">
           <span className="pre-title">Instructors</span>
           <h2 className="title">Course Instructors</h2>
           <span className="shape-line"><i className="icon-19"></i></span>
         </div>
         <div className="row g-5">
 
-          <div className="col-lg-3 col-sm-6 col-12" data-sal-delay="50" data-sal="slide-up" data-sal-duration="800">
+          <div className="col-lg-3 col-sm-6 col-12" data-sal-delay="50" data-sal-duration="800">
             <div className="edu-team-grid team-style-1">
               <div className="inner">
                 <div className="thumbnail-wrap">
                   <div className="thumbnail">
                     <a href="team-details.html">
-                      <Image src="/assets/images/team/team-01.webp" alt="team images">
+                      <Image src="/assets/images/team/team-01.webp" alt="team images" width={270} height={320} />
                     </a>
                   </div>
                   <ul className="team-share-info">
@@ -35,13 +35,13 @@ export default function Team() {
             </div>
           </div>
 
-          <div className="col-lg-3 col-sm-6 col-12" data-sal-delay="100" data-sal="slide-up" data-sal-duration="800">
+          <div className="col-lg-3 col-sm-6 col-12" data-sal-delay="100" data-sal-duration="800">
             <div className="edu-team-grid team-style-1">
               <div className="inner">
                 <div className="thumbnail-wrap">
                   <div className="thumbnail">
                     <a href="team-details.html">
-                      <Image src="/assets/images/team/team-02.webp" alt="team images">
+                      <Image src="/assets/images/team/team-02.webp" alt="team images" width={270} height={320} />
                     </a>
                   </div>
                   <ul className="team-share-info">
@@ -59,13 +59,13 @@ export default function Team() {
             </div>
           </div>
 
-          <div className="col-lg-3 col-sm-6 col-12" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+          <div className="col-lg-3 col-sm-6 col-12" data-sal-delay="150" data-sal-duration="800">
             <div className="edu-team-grid team-style-1">
               <div className="inner">
                 <div className="thumbnail-wrap">
                   <div className="thumbnail">
                     <a href="team-details.html">
-                      <Image src="/assets/images/team/team-03.webp" alt="team images">
+                      <Image src="/assets/images/team/team-03.webp" alt="team images" width={270} height={320} />
                     </a>
                   </div>
                   <ul className="team-share-info">
@@ -83,13 +83,13 @@ export default function Team() {
             </div>
           </div>
 
-          <div className="col-lg-3 col-sm-6 col-12" data-sal-delay="200" data-sal="slide-up" data-sal-duration="800">
+          <div className="col-lg-3 col-sm-6 col-12" data-sal-delay="200" data-sal-duration="800">
             <div className="edu-team-grid team-style-1">
               <div className="inner">
                 <div className="thumbnail-wrap">
                   <div className="thumbnail">
                     <a href="team-details.html">
-                      <Image src="/assets/images/team/team-04.webp" alt="team images">
+                      <Image src="/assets/images/team/team-04.webp" alt="team images" width={270} height={320} />
                     </a>
                   </div>
                   <ul className="team-share-info">

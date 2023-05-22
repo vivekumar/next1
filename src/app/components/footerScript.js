@@ -15,10 +15,10 @@ export default function footerScript() {
             <Script src="/assets/js/vendor/lightbox.min.js"></Script>
             <Script src="/assets/js/vendor/paralax.min.js"></Script>
             <Script src="/assets/js/vendor/paralax-scroll.min.js"></Script>
-            <Script src="/assets/js/vendor/jquery-ui.min.js"></Script>
+            {/*<Script src="/assets/js/vendor/jquery-ui.min.js"></Script>*/}
             <Script src="/assets/js/vendor/swiper-bundle.min.js"></Script>
             <Script src="/assets/js/vendor/svg-inject.min.js"></Script>
-            <Script src="/assets/js/vendor/vivus.min.js"></Script>
+            {/*<Script src="/assets/js/vendor/vivus.min.js"></Script>*/}
             <Script src="/assets/js/vendor/tipped.min.js"></Script>
             <Script src="/assets/js/vendor/smooth-scroll.min.js"></Script>
             <Script src="/assets/js/vendor/isInViewport.jquery.min.js"></Script>

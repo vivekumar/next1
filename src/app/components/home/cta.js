@@ -1,3 +1,4 @@
+'use client';
 import Image from 'next/image'
 
 export default function CTA() {
@@ -22,13 +23,13 @@ export default function CTA() {
               </div>
               <ul className="shape-group">
                 <li className="shape-01 scene">
-                  <Image data-depth="2" src="/assets/images/cta/shape-06.png" alt="shape">
+                  <Image data-depth="2" src="/assets/images/cta/shape-06.png" alt="shape" width={106} height={106} />
                 </li>
                 <li className="shape-02 scene">
-                  <Image data-depth="-2" src="/assets/images/cta/shape-12.png" alt="shape">
+                  <Image data-depth="-2" src="/assets/images/cta/shape-12.png" alt="shape" width={132} height={101} />
                 </li>
                 <li className="shape-03 scene">
-                  <Image data-depth="-3" src="/assets/images/cta/shape-04.png" alt="shape">
+                  <Image data-depth="-3" src="/assets/images/cta/shape-04.png" alt="shape" width={106} height={106} />
                 </li>
               </ul>
             </div>
