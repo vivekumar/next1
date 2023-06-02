@@ -11,8 +11,8 @@ export default function Footer() {
                                 <div className="edu-footer-widget">
                                     <div className="logo">
                                         <Link href="/">
-                                            <img className="logo-light" src="assets/images/logo/logo-dark.png" alt="Corporate Logo" />
-                                            <img className="logo-dark" src="assets/images/logo/logo-white.png" alt="Corporate Logo" />
+                                            <img className="logo-light" src="/assets/images/logo/logo-dark.png" alt="Corporate Logo" />
+                                            <img className="logo-dark" src="/assets/images/logo/logo-white.png" alt="Corporate Logo" />
                                         </Link>
                                     </div>
                                     <p className="description">Lorem ipsum dolor amet consecto adi pisicing elit sed eiusm tempor incidid unt labore dolore.</p>

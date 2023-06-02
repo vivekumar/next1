@@ -102,7 +102,7 @@ export default function Header() {
                   <li className="has-droupdown"><Link href="#">Pages</Link></li>
                   <li className="has-droupdown"><Link href="/courses">Courses</Link> </li>
                   <li className="has-droupdown"><Link href="#">Blog</Link> </li>
-                  <li className="has-droupdown"><Link href="#">Contact</Link> </li>
+                  <li className="has-droupdown"><Link href="/contact-us">Contact</Link> </li>
                 </ul>
               </nav>
             </div>
@@ -126,7 +126,7 @@ export default function Header() {
                   </Link>
                 </li>
                 <li className="header-btn">
-                  <Link href="contact-us.html" className="edu-btn btn-medium">Try for free <i className="icon-4"></i></Link>
+                  <Link href="/contact-us" className="edu-btn btn-medium">Try for free <i className="icon-4"></i></Link>
                 </li>
                 <li className="mobile-menu-bar d-block d-xl-none">
                   <button className="hamberger-button">
@@ -246,10 +246,10 @@ export default function Header() {
                 <li><Link href="blog-details.html">Blog Details</Link></li>
               </ul>
             </li>
-            <li className="has-droupdown"><Link href="#">Contact</Link>
+            <li className="has-droupdown"><Link href="/contact-us">Contact</Link>
               <ul className="submenu">
-                <li><Link href="contact-us.html">Contact Us</Link></li>
-                <li><Link href="contact-me.html">Contact Me</Link></li>
+                <li><Link href="/contact-us">Contact Us</Link></li>
+                <li><Link href="/contact-me">Contact Me</Link></li>
               </ul>
             </li>
           </ul>
