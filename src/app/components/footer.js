@@ -30,12 +30,12 @@ export default function Footer() {
                                     <h4 className="widget-title">Online Platform</h4>
                                     <div className="inner">
                                         <ul className="footer-link link-hover">
-                                            <li><Link href="about-one.html">About</Link></li>
-                                            <li><Link href="course-one.html">Courses</Link></li>
-                                            <li><Link href="team-one.html">Instructor</Link></li>
-                                            <li><Link href="event-grid.html">Events</Link></li>
-                                            <li><Link href="team-details.html">Instructor Profile</Link></li>
-                                            <li><Link href="purchase-guide.html">Purchase Guide</Link></li>
+                                            <li><Link href="about">About</Link></li>
+                                            <li><Link href="course">Courses</Link></li>
+                                            <li><Link href="team">Instructor</Link></li>
+                                            <li><Link href="event">Events</Link></li>
+                                            <li><Link href="team-details">Instructor Profile</Link></li>
+                                            <li><Link href="#">Purchase Guide</Link></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -45,12 +45,12 @@ export default function Footer() {
                                     <h4 className="widget-title">Links</h4>
                                     <div className="inner">
                                         <ul className="footer-link link-hover">
-                                            <li><Link href="contact-us.html">Contact Us</Link></li>
-                                            <li><Link href="gallery-grid.html">Gallery</Link></li>
-                                            <li><Link href="blog-standard.html">News & Articles</Link></li>
-                                            <li><Link href="faq.html">FAQ's</Link></li>
-                                            <li><Link href="my-account.html">Sign In/Registration</Link></li>
-                                            <li><Link href="coming-soon.html">Coming Soon</Link></li>
+                                            <li><Link href="contact-us">Contact Us</Link></li>
+                                            <li><Link href="gallery">Gallery</Link></li>
+                                            <li><Link href="blog">News & Articles</Link></li>
+                                            <li><Link href="faq">FAQ's</Link></li>
+                                            <li><Link href="my-account">Sign In/Registration</Link></li>
+                                            <li><Link href="coming-soon">Coming Soon</Link></li>
                                         </ul>
                                     </div>
                                 </div>

@@ -45,16 +45,16 @@ export default function Header() {
                     <li className="has-droupdown">
                       <Link href="#"><i className="icon-1"></i>Category</Link>
                       <ul className="submenu">
-                        <li><Link href="course-one.html">Design</Link></li>
-                        <li><Link href="course-one.html">Development</Link></li>
-                        <li><Link href="course-one.html">Architecture</Link></li>
-                        <li><Link href="course-one.html">Life Style</Link></li>
-                        <li><Link href="course-one.html">Data Science</Link></li>
-                        <li><Link href="course-one.html">Marketing</Link></li>
-                        <li><Link href="course-one.html">Music</Link></li>
-                        <li><Link href="course-one.html">Photography</Link></li>
-                        <li><Link href="course-one.html">Finance</Link></li>
-                        <li><Link href="course-one.html">Motivation</Link></li>
+                        <li><Link href="course-one">Design</Link></li>
+                        <li><Link href="course-one">Development</Link></li>
+                        <li><Link href="course-one">Architecture</Link></li>
+                        <li><Link href="course-one">Life Style</Link></li>
+                        <li><Link href="course-one">Data Science</Link></li>
+                        <li><Link href="course-one">Marketing</Link></li>
+                        <li><Link href="course-one">Music</Link></li>
+                        <li><Link href="course-one">Photography</Link></li>
+                        <li><Link href="course-one">Finance</Link></li>
+                        <li><Link href="course-one">Motivation</Link></li>
                       </ul>
                     </li>
                   </ul>
@@ -68,24 +68,24 @@ export default function Header() {
                     <ul className="mega-menu mega-menu-one">
                       <li>
                         <ul className="submenu mega-sub-menu mega-sub-menu-01">
-                          <li><Link href="index.html">EduBlink Education <span className="badge-1">hot</span></Link></li>
-                          <li><Link href="index-distant-learning.html">Distant Learning</Link></li>
-                          <li><Link href="index-university.html">University</Link></li>
-                          <li><Link href="index-online-academy.html">Online Academy <span className="badge-1">hot</span></Link></li>
-                          <li><Link href="index-modern-schooling.html">Modern Schooling</Link></li>
-                          <li><Link href="index-kitchen.html">Kitchen Coach</Link></li>
-                          <li><Link href="index-yoga.html">Yoga Instructor</Link></li>
+                          <li><Link href="index">EduBlink Education <span className="badge-1">hot</span></Link></li>
+                          <li><Link href="index-distant-learning">Distant Learning</Link></li>
+                          <li><Link href="index-university">University</Link></li>
+                          <li><Link href="index-online-academy">Online Academy <span className="badge-1">hot</span></Link></li>
+                          <li><Link href="index-modern-schooling">Modern Schooling</Link></li>
+                          <li><Link href="index-kitchen">Kitchen Coach</Link></li>
+                          <li><Link href="index-yoga">Yoga Instructor</Link></li>
                         </ul>
                       </li>
                       <li>
                         <ul className="submenu mega-sub-menu mega-sub-menu-01">
-                          <li><Link href="index-kindergarten.html">Kindergarten</Link></li>
-                          <li><Link href="index-health-coach.html">Health Coch <span className="badge">new</span></Link></li>
-                          <li><Link href="index-language-academy.html">Language Academy <span className="badge">new</span></Link></li>
-                          <li><Link href="index-remote-training.html">Remote Training <span className="badge">new</span></Link></li>
-                          <li><Link href="index-photography.html">Photography <span className="badge">new</span></Link></li>
+                          <li><Link href="index-kindergarten">Kindergarten</Link></li>
+                          <li><Link href="index-health-coach">Health Coch <span className="badge">new</span></Link></li>
+                          <li><Link href="index-language-academy">Language Academy <span className="badge">new</span></Link></li>
+                          <li><Link href="index-remote-training">Remote Training <span className="badge">new</span></Link></li>
+                          <li><Link href="index-photography">Photography <span className="badge">new</span></Link></li>
                           <li><Link href="" target="_blank">Dark Version</Link></li>
-                          <li><Link href="index-landing.html">Landing Demo</Link></li>
+                          <li><Link href="index-landing">Landing Demo</Link></li>
                         </ul>
                       </li>
                       <li>
@@ -120,7 +120,7 @@ export default function Header() {
                   </Link>
                 </li>
                 <li className="icon cart-icon">
-                  <Link href="cart.html" className="cart-icon">
+                  <Link href="cart" className="cart-icon">
                     <i className="icon-3"></i>
                     <span className="count">0</span>
                   </Link>
@@ -158,24 +158,24 @@ export default function Header() {
               <ul className="mega-menu mega-menu-one">
                 <li>
                   <ul className="submenu mega-sub-menu mega-sub-menu-01">
-                    <li><Link href="index.html">EduBlink Education <span className="badge-1">hot</span></Link></li>
-                    <li><Link href="index-distant-learning.html">Distant Learning</Link></li>
-                    <li><Link href="index-university.html">University</Link></li>
-                    <li><Link href="index-online-academy.html">Online Academy <span className="badge-1">hot</span></Link></li>
-                    <li><Link href="index-modern-schooling.html">Modern Schooling</Link></li>
-                    <li><Link href="index-kitchen.html">Kitchen Coach</Link></li>
-                    <li><Link href="index-yoga.html">Yoga Instructor</Link></li>
+                    <li><Link href="index">EduBlink Education <span className="badge-1">hot</span></Link></li>
+                    <li><Link href="index-distant-learning">Distant Learning</Link></li>
+                    <li><Link href="index-university">University</Link></li>
+                    <li><Link href="index-online-academy">Online Academy <span className="badge-1">hot</span></Link></li>
+                    <li><Link href="index-modern-schooling">Modern Schooling</Link></li>
+                    <li><Link href="index-kitchen">Kitchen Coach</Link></li>
+                    <li><Link href="index-yoga">Yoga Instructor</Link></li>
                   </ul>
                 </li>
                 <li>
                   <ul className="submenu mega-sub-menu mega-sub-menu-01">
-                    <li><Link href="index-kindergarten.html">Kindergarten</Link></li>
-                    <li><Link href="index-health-coach.html">Health Coch <span className="badge">new</span></Link></li>
-                    <li><Link href="index-language-academy.html">Language Academy <span className="badge">new</span></Link></li>
-                    <li><Link href="index-remote-training.html">Remote Training <span className="badge">new</span></Link></li>
-                    <li><Link href="index-photography.html">Photography <span className="badge">new</span></Link></li>
+                    <li><Link href="index-kindergarten">Kindergarten</Link></li>
+                    <li><Link href="index-health-coach">Health Coch <span className="badge">new</span></Link></li>
+                    <li><Link href="index-language-academy">Language Academy <span className="badge">new</span></Link></li>
+                    <li><Link href="index-remote-training">Remote Training <span className="badge">new</span></Link></li>
+                    <li><Link href="index-photography">Photography <span className="badge">new</span></Link></li>
                     <li><Link href="" target="_blank">Dark Version</Link></li>
-                    <li><Link href="index-landing.html">Landing Demo</Link></li>
+                    <li><Link href="index-landing">Landing Demo</Link></li>
                   </ul>
                 </li>
                 <li>
@@ -194,41 +194,41 @@ export default function Header() {
                 <li>
                   <h6 className="menu-title">Inner Pages</h6>
                   <ul className="submenu mega-sub-menu-01">
-                    <li><Link href="about-one.html">About Us 1</Link></li>
-                    <li><Link href="about-two.html">About Us 2</Link></li>
-                    <li><Link href="about-three.html">About Us 3</Link></li>
-                    <li><Link href="team-one.html">Instructor 1</Link></li>
-                    <li><Link href="team-two.html">Instructor 2</Link></li>
-                    <li><Link href="team-three.html">Instructor 3</Link></li>
-                    <li><Link href="team-details.html">Instructor Profile</Link></li>
-                    <li><Link href="faq.html">Faq's</Link></li>
-                    <li><Link href="404.html">404 Error</Link></li>
-                    <li><Link href="coming-soon.html">Coming Soon</Link></li>
+                    <li><Link href="about-one">About Us 1</Link></li>
+                    <li><Link href="about-two">About Us 2</Link></li>
+                    <li><Link href="about-three">About Us 3</Link></li>
+                    <li><Link href="team-one">Instructor 1</Link></li>
+                    <li><Link href="team-two">Instructor 2</Link></li>
+                    <li><Link href="team-three">Instructor 3</Link></li>
+                    <li><Link href="team-details">Instructor Profile</Link></li>
+                    <li><Link href="faq">Faq's</Link></li>
+                    <li><Link href="404">404 Error</Link></li>
+                    <li><Link href="coming-soon">Coming Soon</Link></li>
                   </ul>
                 </li>
                 <li>
                   <h6 className="menu-title">Inner Pages</h6>
                   <ul className="submenu mega-sub-menu-01">
-                    <li><Link href="gallery-grid.html">Gallery Grid</Link></li>
-                    <li><Link href="gallery-masonry.html">Gallery Masonry</Link></li>
-                    <li><Link href="event-grid.html">Event Grid</Link></li>
-                    <li><Link href="event-list.html">Event List</Link></li>
-                    <li><Link href="event-details.html">Event Details</Link></li>
-                    <li><Link href="pricing-table.html">Pricing Table</Link></li>
-                    <li><Link href="purchase-guide.html">Purchase Guide</Link></li>
-                    <li><Link href="privacy-policy.html">Privacy Policy</Link></li>
-                    <li><Link href="terms-condition.html">Terms & Condition</Link></li>
-                    <li><Link href="my-account.html">Sign In</Link></li>
+                    <li><Link href="gallery-grid">Gallery Grid</Link></li>
+                    <li><Link href="gallery-masonry">Gallery Masonry</Link></li>
+                    <li><Link href="event-grid">Event Grid</Link></li>
+                    <li><Link href="event-list">Event List</Link></li>
+                    <li><Link href="event-details">Event Details</Link></li>
+                    <li><Link href="pricing-table">Pricing Table</Link></li>
+                    <li><Link href="purchase-guide">Purchase Guide</Link></li>
+                    <li><Link href="privacy-policy">Privacy Policy</Link></li>
+                    <li><Link href="terms-condition">Terms & Condition</Link></li>
+                    <li><Link href="my-account">Sign In</Link></li>
                   </ul>
                 </li>
                 <li>
                   <h6 className="menu-title">Shop Pages</h6>
                   <ul className="submenu mega-sub-menu-01">
-                    <li><Link href="shop.html">Shop</Link></li>
-                    <li><Link href="product-details.html">Product Details</Link></li>
-                    <li><Link href="cart.html">Cart</Link></li>
-                    <li><Link href="wishlist.html">Wishlist</Link></li>
-                    <li><Link href="checkout.html">Checkout</Link></li>
+                    <li><Link href="shop">Shop</Link></li>
+                    <li><Link href="product-details">Product Details</Link></li>
+                    <li><Link href="cart">Cart</Link></li>
+                    <li><Link href="wishlist">Wishlist</Link></li>
+                    <li><Link href="checkout">Checkout</Link></li>
                   </ul>
                 </li>
               </ul>
@@ -240,10 +240,10 @@ export default function Header() {
 
             <li className="has-droupdown"><Link href="#">Blog</Link>
               <ul className="submenu">
-                <li><Link href="blog-standard.html">Blog Standard</Link></li>
-                <li><Link href="blog-masonry.html">Blog Masonry</Link></li>
-                <li><Link href="blog-list.html">Blog List</Link></li>
-                <li><Link href="blog-details.html">Blog Details</Link></li>
+                <li><Link href="blog-standard">Blog Standard</Link></li>
+                <li><Link href="blog-masonry">Blog Masonry</Link></li>
+                <li><Link href="blog-list">Blog List</Link></li>
+                <li><Link href="blog-details">Blog Details</Link></li>
               </ul>
             </li>
             <li className="has-droupdown"><Link href="/contact-us">Contact</Link>
