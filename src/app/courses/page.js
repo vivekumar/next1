@@ -1,15 +1,12 @@
-'use client';
-
-import React, { useEffect } from 'react';
+"use client"
+import React, { useEffect, useState } from 'react';
 import { searchParams } from 'next/navigation';
 
-import Filters from "../components/courses/filters"
-import Sorting from "../components/courses/sorting"
-import CourseStyle2 from "../components/courses/course-style2"
-import CourseStyle1 from "../components/courses/course-style1"
-import Pagination from "../components/courses/pagination"
-
-
+import Filters from "../components/courses/filters";
+import Sorting from "../components/courses/sorting";
+import CourseStyle2 from "../components/courses/course-style2";
+import CourseStyle1 from "../components/courses/course-style1";
+import Pagination from "../components/courses/pagination";
 
 async function getData() {
   try {
@@ -30,52 +27,38 @@ async function getData() {
     return res.json();
   } catch (err) {
     console.log(err);
-
   }
 }
 
+const Courses = () => {
+  const [data, setData] = useState([]);
 
-
-const Courses = async () => {
-
+  const fetchData = async () => {
+    try {
+      const course = await getData();
+      // Set the fetched course data to the state variable
+      setData(course.data);
+    } catch (err) {
+      console.log(err);
+    }
+  };
 
   useEffect(() => {
-    const fetchData = async () => {
-      const course = await getData();
-      console.log('course', course);
-    };
-
     fetchData();
   }, []);
 
-
-
-  //const url = process.env.RAPID_KEY;
-  /*
-  const options = {
-    method: 'GET',
-    headers: {
-      'X-RapidAPI-Key': '66a01503c9msh5c4aee9c7764879p14f69cjsndf9093bcbb07',
-      'X-RapidAPI-Host': 'netflix54.p.rapidapi.com'
-    }
-  };
-   const response = await fetch(`https://netflix54.p.rapidapi.com/search/?query=stranger&offset=0&limit_titles=10&limit_suggestions=20&lang=en`, options);
-    const result = await response.json();
-  */
-  //console.log('url', url);
-  //pagination code start
+  // Pagination code start
   const totalData = 177;
   const dataPerPage = 9;
   const totalPages = Math.ceil(totalData / dataPerPage);
-  //pagination code end
-  let currentPage = 1;
-  //console.log('searchParams', searchParams);
-  //if (Number(searchParams.page) >= 1) {
-  //currentPage = Number(searchParams.page);
-  //}
-  let offset = 0;//(currentPage - 1) * dataPerPage;
+  // Pagination code end
 
-  let data = ['1', '2', '3']
+  let currentPage = 1;
+  // console.log('searchParams', searchParams);
+  // if (Number(searchParams.page) >= 1) {
+  //   currentPage = Number(searchParams.page);
+  // }
+  let offset = 0; //(currentPage - 1) * dataPerPage;
 
   return (
     <div className="edu-course-area course-area-1 section-gap-equal">
@@ -87,20 +70,16 @@ const Courses = async () => {
           <div className="col-lg-9 col-pl--35">
             <div className="row g-5">
               <Sorting />
-              {
-                data.map((item, i) => {
-
-                  return (
-                    < CourseStyle1 data={item} />
-                  )
-                })
-              }
+              {data.map((item, i) => (
+                <CourseStyle1 data={item} key={i} />
+              ))}
             </div>
           </div>
         </div>
         <Pagination />
       </div>
     </div>
-  )
-}
+  );
+};
+
 export default Courses;

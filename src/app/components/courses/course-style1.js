@@ -7,7 +7,7 @@ export default function courseStyle1(props) {
 
     return (
         <div className="col-md-6 col-lg-4 col-xl-4" >
-            {/*<div className="edu-course course-style-1 course-box-shadow hover-button-bg-white">
+            <div className="edu-course course-style-1 course-box-shadow hover-button-bg-white">
                 <div className="inner">
                     <div className="thumbnail">
                         <Link href={`/courses/${props.data._id}`}>
@@ -18,7 +18,7 @@ export default function courseStyle1(props) {
                         </div>
                     </div>
                     <div className="content">
-                        <span className="course-level">Beginner </span>
+                        <span className="course-level">{props.data.course_type} </span>
                         <h6 className="title">
                             <Link href={`/courses/${props.data._id}`}>{props.data.title}</Link>
                         </h6>
@@ -48,7 +48,7 @@ export default function courseStyle1(props) {
                 <div className="course-hover-content">
                     <div className="content">
                         <button className="wishlist-btn"><i className="icon-22"></i></button>
-                        <span className="course-level">Advanced</span>
+                        <span className="course-level">{props.data.course_type}</span>
                         <h6 className="title">
                             <Link href={`/courses/${props.data._id}`}>{props.data.title}</Link>
                         </h6>
@@ -63,7 +63,7 @@ export default function courseStyle1(props) {
                             <span className="rating-count">(5.0 /9 Rating)</span>
                         </div>
                         <div className="course-price">$49.00</div>
-                        <p>{props.data.jawSummary.synopsis}.</p>
+                        <p>{props.data.sort_desc}.</p>
                         <ul className="course-meta">
                             <li><i className="icon-24"></i>15 Lessons</li>
                             <li><i className="icon-25"></i>31 Students</li>
@@ -71,8 +71,7 @@ export default function courseStyle1(props) {
                         <Link href={`/courses/${props.data._id}`} className="edu-btn btn-secondary btn-small">Enrolled <i className="icon-4"></i></Link>
                     </div>
                 </div>
-    </div>*/}
-            fsd
+            </div>
         </div >
     )
 }
