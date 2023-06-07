@@ -49,7 +49,7 @@ export default function Footer() {
                                             <li><Link href="gallery">Gallery</Link></li>
                                             <li><Link href="blog">News & Articles</Link></li>
                                             <li><Link href="faq">FAQ's</Link></li>
-                                            <li><Link href="my-account">Sign In/Registration</Link></li>
+                                            <li><Link href="/my-account">Sign In/Registration</Link></li>
                                             <li><Link href="coming-soon">Coming Soon</Link></li>
                                         </ul>
                                     </div>

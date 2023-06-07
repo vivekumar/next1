@@ -7,8 +7,13 @@ import Sorting from "../components/courses/sorting";
 import CourseStyle2 from "../components/courses/course-style2";
 import CourseStyle1 from "../components/courses/course-style1";
 import Pagination from "../components/courses/pagination";
-
+import Breadcrumb from "../components/breadcrumb"
+import { resolve } from 'styled-jsx/css';
 async function getData() {
+
+  await new Promise(resolve => setTimeout(resolve, 10000))
+
+
   try {
     const options = {
       method: 'GET',

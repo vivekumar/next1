@@ -13,8 +13,8 @@ export default function Header() {
             </div>
             <div className="header-top-right">
               <ul className="header-info">
-                <li><Link href="#">Login</Link></li>
-                <li><Link href="#">Register</Link></li>
+                <li><Link href="/my-account">Login</Link></li>
+                <li><Link href="/my-account">Register</Link></li>
                 <li><Link href="tel:+011235641231"><i className="icon-phone"></i>Call: 123 4561 5523</Link></li>
                 <li><Link href="mailto:info@edublink.com" target="_blank"><i className="icon-envelope"></i>Email: info@edublink.com</Link></li>
                 <li className="social-icon">

@@ -1,10 +1,11 @@
 
 
 import ContactForm from "../components/contact/contact"
+import Breadcrumb from "../components/breadcrumb"
 export default function ContactUs() {
     return (
         <div>
-
+            <Breadcrumb title={'Contact Us'} />
             <ContactForm />
 
             <div className="google-map-area">
