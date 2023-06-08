@@ -5,14 +5,23 @@ import db from "../../utils/connectMongo"
 import ContactModel from "../../models/contact"
 async function saveContact(formData) {
     'use server';
-    console.log(formData);
-    const contactdata = await ContactModel.create(formData);
+    console.log('CONNECTING TO MONGO');
+    await db();
+    console.log('CONNECTED TO MONGO');
+    const form_data = {
+        name: formData.get('contact-name'),
+        email: formData.get('contact-email'),
+        phone: formData.get('contact-phone'),
+        message: formData.get('contact-message'),
+    };
+    const contactdata = await ContactModel.create(form_data);
     console.log('CREATED DOCUMENT');
-    return formData;
-    const post = await db.post.insert({
+    
+    //res.json({ form_data });
+    /*const post = await db.post.insert({
         title: formData.get('title'),
         content: formData.get('content'),
-    });
+    });*/
 
     //redirect(`/blog/${post.slug}`);
 }
@@ -56,7 +65,7 @@ export default function contactForm() {
                                     <h4 className="title">Get In Touch</h4>
                                     <p>Fill out this form for booking a consultant advising session.</p>
                                 </div>
-                                <form className="rnt-contact-form rwt-dynamic-form" id="contact-form" method="POST" action={saveContact}>
+                                <form className="rnt-contact-form1 rwt-dynamic-form1" id="contact-form11" method="POST" action={saveContact}>
                                     <div className="row row--10">
                                         <div className="form-group col-12">
                                             <input type="text" name="contact-name" id="contact-name" placeholder="Your name" />

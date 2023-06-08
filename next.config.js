@@ -2,8 +2,9 @@
 const nextConfig = {
   experimental: {
     appDir: true,
+    serverComponentsExternalPackages: ["mongoose"],
     serverActions: true,
-    topLevelAwait: true,
+    //topLevelAwait: true,
   },
 
 }

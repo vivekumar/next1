@@ -2,6 +2,10 @@ import { Schema, model, models } from 'mongoose';
 
 const ContactSchema = new Schema({
     name: String,
+    phone: {
+        type: String,
+        required: true,
+    },
     email: {
         type: String,
         required: true,

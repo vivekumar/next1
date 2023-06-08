@@ -1,8 +1,10 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import { useDispatch } from 'react-redux';
+import { addToCart } from '../../redux/cart.slice';
 export default function courseStyle1(props) {
-
+    const dispatch = useDispatch();
     console.log(props);
 
     return (
@@ -69,6 +71,7 @@ export default function courseStyle1(props) {
                             <li><i className="icon-25"></i>31 Students</li>
                         </ul>
                         <Link href={`/courses/${props.data._id}`} className="edu-btn btn-secondary btn-small">Enrolled <i className="icon-4"></i></Link>
+                        <button onClick={() => dispatch(addToCart(product))} className="edu-btn btn-secondary btn-small">Add to cart</button>
                     </div>
                 </div>
             </div>
